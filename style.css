@@ -1,0 +1,593 @@
+body {
+  margin: 0;
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+#top {
+  position: absolute;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  color: #1d1d1d;
+}
+
+footer a {
+  font: 400 1rem "Roboto", sans-serif;
+  color: white;
+  font-size: 0.8125rem;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 10px 16px 0px rgba(50, 50, 50, 0.1);
+  padding: 16px 0;
+  z-index: 1000;
+}
+
+nav .container {
+  display: flex;
+}
+
+.ul-nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.goTop {
+  position: fixed;
+  right: 16px;
+  bottom: 24px;
+  height: 80px;
+  width: 80px;
+  background: #59bd5a;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  z-index: 2000;
+}
+
+button {
+  /* 13px */
+  font: 500 0.8125rem "Roboto", sans-serif;
+  box-sizing: border-box;
+  width: 78px;
+  line-height: 12px;
+  padding: 13px 19px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  background-color: white;
+}
+
+nav button {
+  margin-right: 16px;
+}
+
+.basketImg {
+  padding-left: 11px;
+}
+
+.logoImg {
+  width: 120px;
+  height: 14px;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+}
+
+#restSearch {
+  padding-top: 56px;
+  margin-bottom: 56px;
+}
+
+.wideSearch {
+  margin-top: 72px;
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.wideSearchInput {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  line-height: 24px;
+  padding: 0;
+}
+
+::placeholder {
+  color: #626262;
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
+*:focus {
+  outline: none;
+}
+
+.simple-h1 {
+  /* 22px */
+  font: 400 1.375rem "Roboto", sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 34px;
+}
+
+.restCard {
+  margin-top: 16px;
+  padding-bottom: 0;
+}
+
+.restCard .overflowHider {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.overflowHider:hover,
+.wideCard:hover {
+  background-color: #fafafa;
+}
+
+.cardImg {
+  height: 256px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cardImg:hover {
+  transform: scale(1.04);
+  transition: transform 0.5s ease 0s;
+}
+
+.restCard .bigP {
+  font: normal 1rem "Roboto", sans-serif;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.textMuted {
+  /* 14px */
+  font-size: 0.875rem;
+  color: #626262;
+  margin-top: 0;
+  margin-bottom: 4px;
+  line-height: 21px;
+}
+
+.smallText {
+  margin: 0;
+  /* 13px */
+  font-size: 0.8125rem;
+  line-height: 21px;
+}
+
+footer {
+  margin-top: 80px;
+  background-color: #262626;
+  padding-top: 56px;
+  color: white;
+}
+
+footer * {
+  color: white;
+}
+
+hr {
+  background-color: #626262;
+  height: 1px;
+  border: 0;
+}
+
+#hr1 {
+  margin: 40px 0 32px 0;
+}
+
+#hr2 {
+  margin: 25px 0 20px 0;
+}
+
+#hr3 {
+  margin: 20px 0 40px 0;
+}
+
+.selectDiv {
+  display: flex;
+  cursor: pointer;
+  padding: 12px 8px 12px 16px;
+  background-color: #3b3b3b;
+  color: white;
+  font-size: 0.8125rem;
+}
+
+.selectDiv .ul {
+  display: none;
+}
+
+.list {
+  margin-left: 16px;
+}
+
+.arrowIcon {
+  margin-left: auto;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.hashtag {
+  color: #49a144;
+}
+
+.hashtagDiv {
+  margin-top: 33px;
+  margin-bottom: 17px;
+}
+
+.socialsIcon {
+  margin-right: 12px;
+}
+
+.footerButton1 {
+  margin-bottom: 23px;
+}
+
+.justifyCenterDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.appBtn {
+  margin: 20px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.appBtn:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease 0s;
+}
+
+.bottomBtns {
+  padding-bottom: 40px;
+  line-height: 13px;
+}
+
+.bottomBtns a {
+  font-size: 0.6875rem;
+}
+
+.jumbotronHeader {
+  margin-top: 72px;
+  padding: 80px 0;
+  background-image: url(assets/eat.png);
+  background-size: cover;
+}
+
+.jumbotronHeader h1 {
+  font-size: 2.25rem;
+  font-weight: normal;
+  line-height: 42px;
+  margin-top: 0;
+  margin-bottom: 54px;
+}
+
+.myH1 {
+  font-weight: normal;
+  font-size: 1.375rem;
+  line-height: 34px;
+}
+
+.jumbotronHeaderCard {
+  border-radius: 2px;
+  padding: 38px;
+  background-color: white;
+}
+
+.jumbotronHeaderCard .textMuted {
+  margin-right: auto;
+  line-height: 16px;
+  margin-bottom: 0;
+}
+
+.blackBtn {
+  background-color: #262626;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 16px;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  border: none;
+}
+
+.jumbotronHeaderCard .blackBtn {
+  width: 100px;
+  height: 32px;
+}
+
+.dflexAlignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.eatTypes {
+  display: flex;
+  justify-content: flex-start;
+  padding: 32px 0 29px 0;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.eatType {
+  color: #626262;
+  margin-right: 40px;
+}
+
+.myH1 {
+  margin-top: 56px;
+  margin-bottom: 32px;
+}
+
+.wideCard {
+  display: flex;
+  justify-content: space-between;
+
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  border-radius: 2px;
+  margin-bottom: 49px;
+}
+
+.wideCardContent {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wideCardContent h2 {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font: 400 1rem "Roboto", sans-serif;
+  line-height: 24px;
+}
+
+.wideCardContent .textMuted {
+  line-height: 21px;
+  /* 13px */
+  font-size: 0.8125rem;
+}
+
+.wideCardImg {
+  height: 160px;
+  width: 170px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cardBold {
+  margin-top: auto;
+  margin-bottom: 0;
+  line-height: 21px;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  color: #1d1d1d;
+}
+
+/* uber technologies */
+.bottomBtns .col-md-4 {
+  height: 13px;
+}
+
+.footerButton1 {
+  height: 16px;
+}
+
+.eatFooter {
+  margin-top: 31px;
+}
+
+.mobileHr {
+  display: none;
+}
+
+/* for both pages */
+@media (max-width: 1124px) {
+  footer {
+    margin-top: 48px;
+  }
+}
+
+/* checked. For everything but restaurant page? */
+@media (max-width: 768px) {
+  .ul-nav .basketImg {
+    display: none;
+  }
+  
+  .ul-nav {
+    padding-right: 0;
+  }
+
+  .logoImg {
+    width: 107px;
+    height: 11px;
+  }
+
+  .cardImg {
+    height: 246px;
+  }
+
+  .goTop {
+    width: 64px;
+    height: 64px;
+  }
+
+  nav button {
+    margin-right: 8px;
+  }
+
+  .socials {
+    margin-bottom: 39px;
+  }
+
+  #hr2 {
+    margin-top: 17px;
+    margin-bottom: 4px;
+  }
+
+  .appBtn {
+    width: 109px;
+    height: 36px;
+  }
+
+  #hr3 {
+    margin-top: 4px;
+  }
+
+  .bottomBtns .row div {
+    margin-bottom: 24px;
+  }
+  .bottomBtns .row div:last-child {
+    margin-bottom: 0px;
+  }
+
+  footer {
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .jumbotronHeader .blackBtn {
+    /* 12px */
+    font-size: 0.75rem;
+    padding: 8px 16px;
+    height: 32px;
+    width: 94px;
+  }
+  .wideCardImg {
+    height: 160px;
+    width: 200px;
+  }
+
+  .wideCard {
+    margin-bottom: 32px;
+  }
+
+  .eatContainer {
+    padding-bottom: 30px;
+    margin-bottom: 0;
+  }
+
+  .jumbotronHeader {
+    box-sizing: border-box;
+    height: 255px;
+    padding: 0;
+    padding-top: 131px;
+    margin-bottom: 56px;
+  }
+
+  .eatContainer {
+    padding-top: 56px;
+  }
+
+  .myH1 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    line-height: 34px;
+  }
+
+  .hrContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobileHr {
+    display: inline-block;
+    height: 1px;
+    width: 50px;
+    margin: auto;
+    margin-bottom: 43px;
+    background: #757575;
+  }
+
+  .jumbotronHeaderCard {
+    padding: 24px;
+    box-shadow: 0px 10px 16px 0px rgba(50, 50, 50, 0.1);
+  }
+
+  .jumbotronHeaderCard .blackBtn {
+    width: 98px;
+  }
+
+  .jumbotronHeaderCard h1 {
+    line-height: 28px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .jumbotronHeader .dflexAlignCenter {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .jumbotronHeader .textMuted {
+    margin-right: 0;
+    /* 14px */
+    font-size: 0.875rem;
+    line-height: 16px;
+    margin-bottom: 16px;
+  }
+
+  .eatTypes {
+    display: none;
+  }
+
+  .myH1 {
+    text-align: center;
+  }
+
+  .wideCard {
+    border: none;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+    margin-bottom: 16px;
+  }
+
+  .wideCardContent {
+    padding: 0;
+    padding-bottom: 15px;
+  }
+
+  .wideCardContent .textMuted {
+    margin-bottom: 16px;
+  }
+
+  .wideCardImg {
+    width: 102px;
+    height: 102px;
+  }
+
+  .wideCard h2 {
+    /* 14px */
+    font-size: 0.875rem;
+  }
+
+  footer {
+    margin-top: 24px;
+  }
+}
